@@ -38,7 +38,7 @@ figlet Termux-Parrot
 
 echo "Installation Finished!"
 printf "Run: ${green} proot-distro login parrot${clear}\n"
-printf "Then Run: ${green}apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 7A8286AF0E81EE4A${clear}"
+printf "Then Run: ${green}apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 7A8286AF0E81EE4A${clear}\n"
 
 elif [[ "$response" == "n" || "$response" == "N" ]]; then
     exit
