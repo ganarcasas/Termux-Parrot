@@ -16,7 +16,11 @@ uname -m
 ### Step 1: Download Installation Script
 
 ``` sh
-curl -O https://github.com/ganarcasas/Termux-Parrot/raw/refs/heads/main/setup.sh
+apt update && apt install wget
+```
+
+```sh
+wget https://github.com/ganarcasas/Termux-Parrot/raw/refs/heads/main/setup.sh
 ```
 
 ### Step 2: Execute Installation Script
